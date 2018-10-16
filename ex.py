@@ -26,13 +26,13 @@ PURPLE = (255, 0, 127) #Attached MODULE MODE
 WHITE = (255, 255, 255) #chase light
 
 # mode 0 = both, mode 1 = mobility, mode 2 = arm, mode 3 = arm Single(Not Mixed)
-AUX_COLOR = RED
-ALL_COLOR = GREEN
-MOBILITY_COLOR = YELLOW
-MODULE_COLOR = PURPLE
-FULL_CONTROL = ORANGE
-GHZ_COLOR = BLUE
-MHZ_COLOR = BLUE_GREEN
+AUX_COLOR = RED #auxillary power
+ALL_COLOR = GREEN #auxillary and main power
+MOBILITY_COLOR = YELLOW #mobility only
+MODULE_COLOR = PURPLE #arm/science only
+FULL_CONTROL = ORANGE #both mobility and arm/science
+GHZ_COLOR = BLUE #ubiquity
+MHZ_COLOR = BLUE_GREEN #433 MHz backup radio
 
 mode = 1 #value will be pulled from subscribed topic 
 
